@@ -1,6 +1,7 @@
 
 public class Aves extends Animais{
 	
+	private static final String GetPaisOrigem = null;
 	private String corPredominante;
 	private String tipoAlimentacao;
 
@@ -33,7 +34,7 @@ public class Aves extends Animais{
 
 	@Override
 	public String toString() {
-		return "\nRaça: " + raca + "\nNome: " + nomeIdentificacao + "\nPorte: " + porte + "\nHabitat: " + habitat + "\nOrigem: " + paisOrigem + "\nCor: " + corPredominante + "\nAlimentação: " + tipoAlimentacao;
+		return "\nRaça: " + getRaca() + "\nNome: " + getNomeIdentificacao() + "\nPorte: " + getPorte() + "\nHabitat: " + getHabitat() + "\nOrigem: " + getPaisOrigem() + "\nCor: " + getCorPredominante() + "\nAlimentação: " + getTipoAlimentacao();
 	}
 	
 	

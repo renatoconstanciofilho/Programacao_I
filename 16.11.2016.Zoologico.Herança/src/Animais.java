@@ -1,11 +1,11 @@
 
 public abstract class Animais {
 
-	protected String raca;
-	protected String nomeIdentificacao;
-	protected String porte;
-	protected String habitat;
-	protected String paisOrigem;
+	private String raca;
+	private String nomeIdentificacao;
+	private String porte;
+	private String habitat;
+	private String paisOrigem;
 	
 	public Animais(String raca, String nomeIdentificacao, String porte, String habitat, String paisOrigem) throws Exception{
 		setRaca(raca);

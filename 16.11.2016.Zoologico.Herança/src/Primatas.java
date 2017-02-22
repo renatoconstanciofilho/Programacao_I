@@ -9,7 +9,7 @@ public class Primatas extends Animais{
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return "\nRaça: " + raca + "\nNome: " + nomeIdentificacao + "\nPorte: " + porte + "\nHabitat: " + habitat + "\nOrigem: " + paisOrigem;
+		return "\nRaça: " + getRaca() + "\nNome: " + getNomeIdentificacao() + "\nPorte: " + getPorte() + "\nHabitat: " + getHabitat() + "\nOrigem: " + getPaisOrigem();
 	}
 	
 }

@@ -33,7 +33,7 @@ public class GatoSelvagem extends Animais {
 
 	@Override
 	public String toString() {
-		return "\nRaça: " + raca + "\nNome: " + nomeIdentificacao + "\nPorte: " + porte + "\nHabitat: " + habitat + "\nOrigem: " + paisOrigem + "\nPelagem: " + corPelagem + "\nMachas: " + tipoManchas;
+		return "\nRaça: " + getRaca() + "\nNome: " + getNomeIdentificacao() + "\nPorte: " + getPorte() + "\nHabitat: " + getHabitat() + "\nOrigem: " + getPaisOrigem() + "\nPelagem: " + getCorPelagem() + "\nMachas: " + getTipoManchas();
 	}
 	
 	
